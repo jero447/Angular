@@ -1,1 +1,11 @@
-<p>trending-page works!</p>
+
+<div class="py-5">
+  <gif-list [gifs]="gifService.trendingGifs()"></gif-list>
+</div>
+
+
+
+<!-- Esta forma tambien funciona porque los tags personalizados
+ son un inline y el padding solo si aplica si el elemento es en bloque
+
+<gif-list class="pt-5 block"></gif-list> -->
